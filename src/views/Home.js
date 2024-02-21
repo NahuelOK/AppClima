@@ -2,7 +2,7 @@ import CardClima from "../components/CardClima/CardClima.js"
 
 function Home(){
     return(
-        <div>
+        <div className="fondo">
             <CardClima/>
         </div>
     )

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+.card-clima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    gap: 30px;
+    .card-clima-propiedades{
+        border-radius: 2%;
+        background-color: #3489d85e;
+        width: 48%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        h1{
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            margin: 2%;
+        }
+        h2{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            margin: 2%;
+        }
+        .parte-de-arriba{
+            display: flex;
+            gap: 10%;
+            margin-top: 3%;
+            .contenedor-datos-1{
+                background-color: #459AE8;
+                width: 40%;
+                border-radius: 18px;
+                margin: 2%;
+                height: 180px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 8%;
+                padding: 2%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+                .temperatura{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    img{
+                        width: 92px;
+                    }
+                    h2{
+                        font-size: 38px;
+                        color: white;
+                    }
+                }
+                h2{
+                    font-size: 23px;
+                    color: white;
+                }
+            }
+            .contenedor-datos-2{
+                background-color: #459AE8;
+                width: 40%;
+                border-radius: 18px;
+                margin: 1%;
+                height: 140px;
+                margin-top: 3%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 8%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+                h2{
+                    color: white;
+                }
+                .viento{
+                    display: flex;
+                    align-items: end;
+                    gap: 28px;
+                    h2{
+                        font-size: 48px;
+                        color: #1E69AD;
+                    }
+                    h3{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .mapa{
+        display: flex;
+        justify-content: center;
+        margin: 4%;
+        background-color: #459AE8;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        iframe{
+            border-radius: 14px;
+            width: 90%;
+            margin: 4%;
+        }
+    }
+}
